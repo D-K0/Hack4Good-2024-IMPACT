@@ -1,0 +1,25 @@
+name: impact
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - black
+  - flake8
+  - arch
+  - isort
+  - pip
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - pmdarima
+  - pyarrow
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - pip:
+    - python-dotenv
+    - mkdocs
+    - -e .
